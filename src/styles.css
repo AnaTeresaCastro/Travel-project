@@ -40,7 +40,6 @@ header a {
 }
 main {
   background-color: white;
-  padding: 20px;
 }
 main h2 {
   font-size: 16px;
@@ -56,6 +55,13 @@ main h3 {
 
   color: #272044;
   margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin-bottom: 0;
 }
 main p {
   font-weight: 400;
@@ -112,6 +118,36 @@ footer p {
 .three-columns-grid {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.recommendations {
+  background-color: #f8f8f8;
+}
+.text-center {
+  text-align: center;
+}
+.places {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 55px;
+  margin-top: 20px;
+}
+.place-body {
+  background-color: white;
+  padding: 40px;
+}
+.places a {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #4732b3;
+  color: white;
+  margin-top: 40px;
+}
+.place-header {
+  padding: 0;
+}
 @media (max-width: 800px) {
   header {
     padding: 100px 0;
@@ -131,7 +167,6 @@ footer p {
   section {
     padding: 40px;
   }
-
   .two-columns-grid {
     padding-top: 0;
     grid-template-columns: 1fr;
